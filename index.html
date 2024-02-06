@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <title>Bingers</title>
+  </head>
+  <body>
+    <header class="header">
+      <video id="video" src="/video/jurasic world.webm" autoplay muted></video>
+      <nav id="nav">
+        <div id="logo_ul">
+          <div id="title">Bingers</div>
+          <ul id="ul">
+            <li class="list">
+              <a class="anchor" href="movie.html">Movies</a>
+            </li>
+            <li class="list">
+              <a class="anchor" href="series.html">Series</a>
+            </li>
+            <li class="list" id="loginBtnContainer">
+              <button class="login-button" id="loginBtn">Login</button>
+            </li>
+          </ul>
+        </div>
+        <form id="form" action="#" method="GET">
+          <input id="input" type="text" placeholder="Search..." />
+          <button id="submit" type="submit"></button>
+        </form>
+      </nav>
+
+      <div class="contents">
+        <div class="content">
+          <h1>About Us</h1>
+          <p class="para">
+            Welcome to Bingers - your ultimate cinematic hub! Discover the
+            latest film news, insightful reviews, exclusive interviews, and
+            engaging community discussions. Join us in celebrating the magic of
+            movies and being a part of our passionate film-loving community.
+          </p>
+          <div class="details">
+            <h5>Since 2023</h5>
+          </div>
+        </div>
+
+        <div class="content">
+          <h1>Contact Me</h1>
+          <p class="para">
+            Email Id:
+            <a href="https://mail.google.com/mail">kaliraman028@gmail.com</a>
+          </p>
+          <p class="para">
+            Contact: <a href="https://mail.google.com/mail">8950829093</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="wrapper">
+          <span class="icon-close"><i class="bi bi-x"></i></span>
+          <div class="form-box login">
+            <h2>Login</h2>
+            <form class="forml" action="#">
+              <div class="input-box">
+                <span class="icon"><i class="bi bi-envelope-fill"></i></span>
+                <input type="text" name="email" required />
+                <label id="emaill">Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="bi bi-lock-fill"></i></span>
+                <input type="password" name="passl" required />
+                <label id="passl">Password</label>
+              </div>
+              <div class="remember-forgot">
+                <label> <input type="checkbox" required />Remember me</label>
+              </div>
+              <button type="submit" class="btn">Login</button>
+              <div class="login-register">
+                <p>
+                  Don't have an account?
+                  <a href="#" class="register-link">Register</a>
+                </p>
+              </div>
+            </form>
+          </div>
+          <div class="form-box register">
+            <h2>Registration</h2>
+            <form class="formr" action="#">
+              <div class="input-box">
+                <span class="icon"><i class="bi bi-envelope-fill"></i></span>
+                <input type="text" name="emailr" required />
+                <label id="emailr">Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="bi bi-lock-fill"></i></span>
+                <input type="password" name="passr" required />
+                <label id="passr">Password</label>
+              </div>
+              <div class="remember-forgot">
+                <label>
+                  <input type="checkbox" />I agree to terms & conditions.</label
+                >
+              </div>
+              <button type="submit" class="btn">Register</button>
+              <div class="login-register">
+                <p>
+                  Already have an account?
+                  <a href="#" class="login-link">Login</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <main id="main">
+        <!-- Watchlist items will be displayed here -->
+      </main>
+    </section>
+
+    <div class="watchlist">
+      <h4>Watchlist</h4>
+      <ul>
+        <!-- <li>john wick</li>
+        <li>intersteller</li>
+        <li>inception</li>
+        <li>game of thrones</li>
+        <li>house of dragons</li>
+        <li>john wick</li>
+        <li>intersteller</li>
+        <li>inception</li>
+        <li>game of thrones</li>
+        <li>house of dragons</li> -->
+      </ul>
+    </div>
+
+    <div class="rating">
+      <h4>Rating</h4>
+      <ul id="ratingList">
+        <!-- <li></li> -->
+      </ul>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>&copy; 2024 Bingers. All Rights Reserved.</p>
+        </div>
+        <div class="footer-center">
+          <ul>
+            <li><a href="movie.html">Movies</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="home.html">About Us</a></li>
+            <li><a href="home.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <p>Follow Me:</p>
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://twitter.com/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/home.js"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+      import {
+        getAuth,
+        onAuthStateChanged,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+        setPersistence,
+        browserSessionPersistence,
+        signOut,
+      } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+      import {
+        getFirestore,
+        collection,
+        addDoc,
+        getDocs,
+        doc,
+        getDoc,
+        setDoc,
+      } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyAcciDo8dtWjMPeEV2-hTR3kgjMMQEKifc",
+        authDomain: "movie-8ad17.firebaseapp.com",
+        projectId: "movie-8ad17",
+        storageBucket: "movie-8ad17.appspot.com",
+        messagingSenderId: "571369222796",
+        appId: "1:571369222796:web:d87914a5f4123849aec1a9",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      setPersistence(auth, browserSessionPersistence);
+      const firestore = getFirestore(app);
+
+      const signupForm = document.querySelector(".formr");
+      const watchlistUl = document.querySelector(".watchlist ul");
+      const ratingUl = document.querySelector(".rating ul");
+
+      let currentUser = null;
+
+      const loginBtnContainer = document.getElementById("loginBtnContainer");
+      const loginBtn = document.getElementById("loginBtn");
+
+      onAuthStateChanged(auth, (user) => {
+        if (user) {
+          currentUser = user;
+          console.log("Current user:", currentUser);
+          loadWatchlist(currentUser);
+          loadRatings(currentUser);
+          loginBtn.textContent = "Logout";
+        } else {
+          currentUser = null;
+          console.log("No user signed in");
+          watchlistUl.innerHTML = "";
+          ratingUl.innerHTML = "";
+          loginBtn.textContent = "Login";
+        }
+      });
+
+      loginBtn.addEventListener("click", () => {
+        if (currentUser) {
+          signOut(auth)
+            .then(() => {
+              console.log("User signed out");
+              loginBtn.textContent = "Login";
+              watchlistUl.innerHTML = "";
+            })
+            .catch((error) => {
+              console.error("Error signing out:", error);
+            });
+        } else {
+          loginWrapper.style.display = "block";
+        }
+      });
+
+      signupForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const emailr = signupForm.emailr.value;
+        const passr = signupForm.passr.value;
+
+        console.log("Form submitted. Email:", emailr, "Password:", passr);
+
+        createUserWithEmailAndPassword(auth, emailr, passr)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            console.log("User registered:", user);
+            signupForm.reset();
+            document.querySelector(".wrapper").style.display = "none";
+            signupForm.reset;
+            alert("Registered");
+          })
+          .catch((error) => {
+            console.error("Firebase Error:", error.code, error.message);
+            document.getElementById("emailr").innerHTML =
+              "Error, please retry.";
+            document.getElementById("passr").innerHTML = "Error, please retry.";
+          });
+      });
+
+      const loginForm = document.querySelector(".forml");
+
+      loginForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const emailElement = loginForm.querySelector('[name="email"]');
+        const passlElement = loginForm.querySelector('[name="passl"]');
+
+        if (emailElement && passlElement) {
+          const email = emailElement.value;
+          const passl = passlElement.value;
+
+          signInWithEmailAndPassword(auth, email, passl)
+            .then((cred) => {
+              console.log("user logged in:", cred.user);
+              document.querySelector(".wrapper").style.display = "none";
+              loginForm.reset;
+              alert("Signed In");
+
+              const userDocRef = doc(firestore, "users", cred.user.uid);
+              getDoc(userDocRef)
+                .then((docSnapshot) => {
+                  if (!docSnapshot.exists()) {
+                    setDoc(userDocRef, {});
+                    console.log("User document created:", cred.user.uid);
+                  }
+                })
+                .catch((error) => {
+                  console.error("Error checking user document:", error);
+                });
+
+              loadWatchlist(cred.user);
+            })
+            .catch((error) => {
+              emailElement.nextElementSibling.innerHTML = "error, RETRY: ";
+              passlElement.nextElementSibling.innerHTML = "error, RETRY: ";
+            });
+        } else {
+          console.error("Email or password element not found");
+        }
+      });
+
+      async function loadWatchlist(user) {
+        try {
+          if (!user || !user.uid) {
+            console.log("User not authenticated or UID not available.");
+            return;
+          }
+
+          const userWatchlistCollection = collection(
+            firestore,
+            "users",
+            user.uid,
+            "watchlist"
+          );
+          const querySnapshot = await getDocs(userWatchlistCollection);
+
+          watchlistUl.innerHTML = "";
+
+          querySnapshot.forEach((doc) => {
+            const movieTitle = doc.data().title;
+            const li = document.createElement("li");
+            li.textContent = movieTitle;
+            watchlistUl.appendChild(li);
+          });
+        } catch (error) {
+          console.error("Error loading watchlist: ", error);
+        }
+      }
+
+      async function addToWatchlist(user, movieTitle) {
+        try {
+          if (!user || !user.uid) {
+            console.log("User not authenticated or UID not available.");
+            return;
+          }
+
+          const userWatchlistCollection = collection(
+            firestore,
+            "users",
+            user.uid,
+            "watchlist"
+          );
+          const docRef = await addDoc(userWatchlistCollection, {
+            title: movieTitle,
+          });
+
+          const li = document.createElement("li");
+          li.textContent = movieTitle;
+          watchlistUl.appendChild(li);
+
+          console.log("Movie added to watchlist with ID: ", docRef.id);
+        } catch (error) {
+          console.error("Error adding movie to watchlist: ", error);
+        }
+      }
+
+      searchResultsContainer.addEventListener("click", (e) => {
+        if (e.target.classList.contains("add-to-watchlist")) {
+          const movieTitle =
+            e.target.parentElement.querySelector("h4").textContent;
+          addToWatchlist(currentUser, movieTitle);
+        }
+      });
+
+      searchResultsContainer.addEventListener("click", (e) => {
+        if (
+          e.target.tagName === "BUTTON" &&
+          e.target.className === "submit-rating"
+        ) {
+          const movieId = e.target.dataset.movieId;
+          const rating = document.getElementById(`rating_${movieId}`).value;
+          const movieTitle =
+            e.target.parentElement.querySelector("h4").textContent;
+          saveRating(currentUser, movieId, rating, movieTitle);
+        }
+      });
+
+      async function saveRating(user, movieId, rating, movieTitle) {
+        try {
+          if (!user || !user.uid) {
+            console.log("User not authenticated or UID not available.");
+            return;
+          }
+
+          const userRatingsCollection = collection(
+            firestore,
+            "users",
+            user.uid,
+            "ratings"
+          );
+          const docRef = await addDoc(userRatingsCollection, {
+            movieId: movieId,
+            rating: rating,
+            movieTitle: movieTitle,
+          });
+
+          console.log("Rating saved with ID: ", docRef.id);
+        } catch (error) {
+          console.error("Error saving rating: ", error);
+        }
+      }
+
+      async function loadRatings(user) {
+        try {
+          if (!user || !user.uid) {
+            console.log("User not authenticated or UID not available.");
+            return;
+          }
+
+          const userRatingsCollection = collection(
+            firestore,
+            "users",
+            user.uid,
+            "ratings"
+          );
+          const querySnapshot = await getDocs(userRatingsCollection);
+
+          ratingUl.innerHTML = "";
+
+          querySnapshot.forEach((doc) => {
+            const movieTitle = doc.data().movieTitle;
+            const rating = doc.data().rating;
+
+            const li = document.createElement("li");
+            li.textContent = `${movieTitle}: ${rating}`;
+            li.style.color = getRatingColor(rating);
+            ratingUl.appendChild(li);
+          });
+        } catch (error) {
+          console.error("Error loading ratings: ", error);
+        }
+      }
+
+      function getRatingColor(rating) {
+        if (rating >= 4 && rating <= 5) {
+          return "green";
+        } else if (rating === 3) {
+          return "orange";
+        } else {
+          return "red";
+        }
+      }
+    </script>
+  </body>
+</html>
